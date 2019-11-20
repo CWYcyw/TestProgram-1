@@ -1,0 +1,4 @@
+<!--pages/me/me.wxml-->
+<view class="userInfo">
+  <view wx:if="{{hasUserInfo}}">{{userInfo.nickname}}</view>
+</view>
